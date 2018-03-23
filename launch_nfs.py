@@ -97,8 +97,8 @@ def_ls_instanceName = 'nfs_server_topmed'
 def_ls_privateIP = '172.255.33.0'
 def_ls_subnet = 'subnet-41a8bd37'
 def_ls_securityGroups = 'sg-c74b44be,sg-852733fa'
-def_ls_amiID = 'ami-fc7def84'
-def_vol_ID = 'vol-096752fdd9e5da2d2'
+def_ls_amiID = 'ami-b178e7c9'
+def_vol_ID = 'vol-0c66a8af4c925ac14'
 def_vol_device = '/dev/sdf'
 
 # command line parser
