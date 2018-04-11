@@ -18,7 +18,7 @@ trap f ERR
 # cmd line arguments
 EBS_DEVICE=${1:-nvme1n1}
 EBS_MOUNT=${2:-/ext_ebs}
-EBS_EXPORT=${3:-/export_ebs}
+EBS_EXPORT=${3:-/export_nfs}
 # check for device
 echo "Checking the ebs device /dev/$EBS_DEVICE"
 lsblk /dev/$EBS_DEVICE > /tmp/check_device.log 2>&1
