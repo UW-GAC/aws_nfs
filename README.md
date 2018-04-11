@@ -78,4 +78,4 @@ The program does the following:
 3. The `/etc/exports` files enables all client computers to connect (security is enforced using AWS security groups)
 4. Both the mounting of the external EBS volume and the exported EBS folder is appended to the `/etc/fstab` file
 
-By exercuting the program without any command line arguments, the server will be configured with the above configuration.
+By executing the program without any command line arguments, the server will be configured with the above configuration.
